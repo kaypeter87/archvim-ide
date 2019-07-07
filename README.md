@@ -1,6 +1,6 @@
 # ArchVIM as an IDE by Peter Kay
 
-### Forked from Damian Ziobro [vim-ide](https://github.com/DamZiobro/vim-ide)
+### Forked from Damian Ziobro's [vim-ide](https://github.com/DamZiobro/vim-ide)
 
 #### Currently a work in progress
 - 20190707 - Forked from Damian Ziobro's repo
