@@ -69,14 +69,6 @@ while true; do
                 if [ -f /usr/bin/vim.default ]; then 
                     sudo rm /usr/bin/vim.default
                 fi
-                sudo ln -s /etc/alternatives/vi /usr/bin/vi.default
-                sudo ln -s /etc/alternatives/vim /usr/bin/vim.default 
-                if [ -f /usr/bin/vi ]; then 
-                    sudo rm /usr/bin/vi 
-                fi 
-                if [ -f /usr/bin/vim ]; then 
-                    sudo rm /usr/bin/vim 
-                fi 
                 if [ -f $HOME/.vim/vimscripts/vi_overlay ]; then 
                     sudo ln -s $VIM_ROOT/vimscripts/vi_overlay /usr/bin/vi
                     sudo ln -s $VIM_ROOT/vimscripts/vi_overlay /usr/bin/vim 
