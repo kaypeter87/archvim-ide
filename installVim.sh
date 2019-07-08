@@ -27,16 +27,16 @@ ln -s $VIM_ROOT/vimrc $HOME/.vimrc
 
 echo -e "Installing vim (Vi Improved) package from repository"
 #installinv vim-gnome allows copy/pasting beween vim and system clipboard
-sudo apt-get --yes install vim vim-gnome
+sudo pacman -Syu --noconfirm vim vim-gnome
 
 echo -e "Installing ctags"
-sudo apt-get --yes install ctags
+sudo pacman -Syu --noconfirm ctags
 
 echo -e "Installing cscope"
-sudo apt-get --yes install cscope
+sudo pacman -Syu --noconfirm cscope
 
 echo -e "Installing pip for python-based dpeendencies"
-sudo apt-get --yes install pip
+sudo pacman -Syu --noconfirm python-pip
 
 echo -e "Installing python dependencies"
 sudo pip install pdb pylint
