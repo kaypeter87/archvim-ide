@@ -39,7 +39,7 @@ echo -e "Installing pip for python-based dpeendencies"
 sudo pacman -Syu --noconfirm python-pip
 
 echo -e "Installing python dependencies"
-sudo pip install pdb pylint
+sudo pip install pylint
 
 echo -e "Initializing and checking out plugins submodules: "
 
