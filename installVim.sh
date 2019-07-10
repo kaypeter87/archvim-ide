@@ -53,6 +53,8 @@ git submodule update
 #restore all submodules to the commit which is approved by last master commit
 #git submodule update --recursive 
 
+#vi_overlay does not work on arch linux
+<<'END'
 echo -e "Installing vi_overlay" 
 
 while true; do
@@ -82,4 +84,4 @@ while true; do
         * ) echo -e "Please select yes or no";;
     esac
 done
-
+END
