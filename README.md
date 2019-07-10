@@ -5,6 +5,7 @@
 #### Currently a work in progress
 - 20190707 - Forked from Damian Ziobro's repo
 - 20190708 - Refactored install script to use pacman commands and python3 syntax
+- 20190709 - Removed vi_overlay installation
 
 Now you can have the ease of installing vim-ide in your Arch Linux distro!
 
