@@ -1,3 +1,0 @@
-find `pwd` -name '*.c' -o -name '*.h' -o -name '*.cpp' -o -name '*.hpp' > ~/.vim/cscope.files 
-cscope -q -R -b -i ~/.vim/cscope.files 
-mv cscope* ~/.vim/ 
