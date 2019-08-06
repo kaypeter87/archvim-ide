@@ -1,3 +1,3 @@
 " Default colorscheme
-set background=dark
-colorscheme hybrid
+" set background=dark
+"colorscheme iceberg
