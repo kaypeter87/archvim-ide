@@ -4,7 +4,7 @@
 
 ## Features
 
-- Code completion with [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
+- Code completion with [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 - Git integration using [fugitive](https://github.com/tpope/vim-fugitive)
 - [NERDTree](https://github.com/scrooloose/nerdtree) file browsing
 - Quickly find files, buffers etc. using [CtrlP](https://github.com/kien/ctrlp.vim)
