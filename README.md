@@ -325,7 +325,8 @@ Please feel free to contribute by sending pull requests or file issues in the bu
 
     The MIT License (MIT)
 
-    Copyright (c) 2014-2015 Sebastian Dahlgren
+    Original Copyright (c) 2014-2015 Sebastian Dahlgren
+    Modified Copyright (c) 2019 Peter Kay (kaypeter87)
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
